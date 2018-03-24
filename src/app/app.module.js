@@ -9,6 +9,7 @@ const materialConfig = $mdThemingProvider => {
   $mdThemingProvider.theme('default');
 };
 
+
 export const appModule = angular
   .module('app', [
     uiRouter,
