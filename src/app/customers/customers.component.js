@@ -1,9 +1,10 @@
-import template from './list.html';
-import CustomersListController from './CustomersListController';
+import template from './customers.html';
+import CustomersController from './customers.controller';
+
 
 
 export default class CustomersComponent {
   template = template;
-  controllerAs = 'list';
-  controller = CustomersListController;
+  controllerAs = 'customers';
+  controller = CustomersController;
 }

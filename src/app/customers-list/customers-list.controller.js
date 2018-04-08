@@ -1,4 +1,4 @@
-import Customer from './Customer';
+import Customer from '../customers/Customer';
 
 export default class CustomersListController{
 
