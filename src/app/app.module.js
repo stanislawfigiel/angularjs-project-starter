@@ -13,20 +13,6 @@ const materialConfig = $mdThemingProvider => {
 };
 
 
-/*
-
-export const routing = ($urlRouterProvider, $locationProvider, $stateProvider) => {
-  $locationProvider.html5Mode(true);
-  $urlRouterProvider.otherwise('/customers/list');
-
-  $stateProvider.state({
-    name: 'list',
-    url: '/customers/list',
-    component: 'customersList'
-  })
-}
-*/
-
 
 export const appModule = angular
   .module('app', [

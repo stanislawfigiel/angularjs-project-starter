@@ -7,4 +7,4 @@ import CustomersListComponent from "./customers-list.component";
 
 
 export const listModule = angular.module('app.customers.list', [])
-  .component('list', new CustomersListComponent());
+  .component('customersList', new CustomersListComponent());

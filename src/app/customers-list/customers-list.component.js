@@ -5,6 +5,6 @@ import CustomersListController from './customers-list.controller';
 
 export default class CustomersListComponent {
   template = template;
-  controllerAs = 'customers';
+  controllerAs = 'list';
   controller = CustomersListController;
 }

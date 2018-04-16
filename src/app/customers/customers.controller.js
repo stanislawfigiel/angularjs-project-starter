@@ -11,7 +11,7 @@ export default class CustomersController {
 
   showList = () => {
     console.log('lista pokazujemy');
-    this.$state.go('listx');
+    this.$state.go('list');
   };
 
 

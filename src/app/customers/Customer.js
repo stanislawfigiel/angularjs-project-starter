@@ -1,11 +1,13 @@
 export default class Customer{
+    id='';
     name = '';
     company = '';
     phone = '';
     email = '';
     date = 0;
 
-    constructor(name, company, phone, email) {
+    constructor(id, name, company, phone, email) {
+        this.id = id;
         this.name = name;
         this.company = company;
         this.phone = phone;

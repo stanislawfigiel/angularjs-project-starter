@@ -1,4 +1,3 @@
-/*
 
 angular.
 module('customers').
@@ -7,7 +6,7 @@ config([$urlRouterProvider,$stateProvider,$locationProvider,$routeProvider,
     $locationProvider.hashPrefix('!');
     $locationProvider.html5Mode(true);
 
-    $urlRouterProvider.otherwise('/customers/listxx');
+    $urlRouterProvider.otherwise('/customers/list');
 
     $stateProvider.state({
       name: 'list',
@@ -18,4 +17,3 @@ config([$urlRouterProvider,$stateProvider,$locationProvider,$routeProvider,
   }]);
 
 
-*/
