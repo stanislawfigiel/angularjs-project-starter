@@ -1,21 +1,27 @@
 import Customer from '../customers/Customer';
-
+import customersService from '../CustomersService';
 export default class CustomersListController{
 
   customers = [];
 
 
-    constructor($state, $scope) {
+    constructor(customersService,$state, $scope) {
+      this.customersService = customersService;
       this.$state = $state;
       this.$scope = $scope;
+  }
 
 
-
-
-    let cust1 = new Customer(1, 'aa', 'bb', 'cc', 'sss');
-    let cust2 = new Customer(2, 'ww','ee', 'dd', 'ff');
-    this.customers.push(cust1);
-    this.customers.push(cust2);
+  $onInit = () => {
+    this.loading = true;
+    this.customersService.getList()
+      .then(res => {
+        res.json().then(data => {
+          this.customers = data.customers;
+          this.loading = false;
+          this.$scope.$applyAsync();
+        })
+      })
   }
 
 
@@ -25,7 +31,7 @@ export default class CustomersListController{
 
   edit = customer => {
     console.log("EDYCJA", customer)
-    this.$state.go('update', { id: customer.id })
+    this.$state.go('edit', { id: customer.id })
   }
 
   delete = id => {

@@ -7,4 +7,4 @@ import CustomersEditComponent from "./customers-edit.component";
 
 
 export const editModule = angular.module('app.customers.edit', [])
-  .component('customersEdit', new CustomersEditComponent());
+  .component('editCustomer', new CustomersEditComponent());

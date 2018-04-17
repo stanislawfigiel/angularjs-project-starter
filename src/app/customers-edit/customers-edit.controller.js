@@ -3,10 +3,11 @@ import CustomersService from '../CustomersService';
 
 export default class CustomersEditController{
 
-  submitText = 'Edit';
+  submitText = 'Save changes';
   title = 'Edit customer';
 
   constructor(customersService, $stateParams, $scope, $state, $mdToast) {
+    console.log("CONTROLLER EDIT CONSTRUCTIOR");
     this.$state = $state;
     this.$stateParams = $stateParams;
     this.$scope = $scope;

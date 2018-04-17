@@ -23,8 +23,8 @@ export const routing = ($urlRouterProvider, $locationProvider, $stateProvider) =
   });
 */
   $stateProvider.state({
-    name: 'update',
-    url: '/customers/update/:id',
+    name: 'edit',
+    url: '/customers/edit/:id',
     component: 'editCustomer',
   });
 

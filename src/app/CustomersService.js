@@ -1,4 +1,8 @@
+
+const API = 'https://wsb-frontend-project-angularjs.juszczak.io';
+
 export default class CustomersService {
+  // const API = 'https://wsb-frontend-project-angularjs.juszczak.io';
   constructor($http) {
     this.$http = $http;
   }
