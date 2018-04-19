@@ -29,6 +29,8 @@ export default class CustomersListController{
     this.$state.go('details', { id: id });
   }
 
+
+
   edit = customer => {
     console.log("EDYCJA", customer)
     this.$state.go('edit', { id: customer.id })

@@ -1,0 +1,41 @@
+<md-card class="add-card">
+  <md-card-header>
+    <md-card-header-text>
+      <h1 layout="row" layout-align="center center">
+        {{ctrl.title}}
+      </h1>
+    </md-card-header-text>
+  </md-card-header>
+  <md-card-content>
+      <div layout="row" layout-align="center center">
+        <md-input-container flex>
+          <label>Name</label>
+          <span> {{ctrl.model.name}}</span>
+        </md-input-container>
+      </div>
+      <div layout="row" layout-align="center center">
+        <md-input-container flex>
+          <label>Company</label>
+          <span>{{ctrl.model.company}}</span>
+        </md-input-container>
+      </div>
+      <div layout="row" layout-align="center center">
+        <md-input-container flex>
+          <label>Phone</label>
+          <span>{{ctrl.model.phone}}</span>
+        </md-input-container>
+      </div>
+      <div layout="row" layout-align="center center">
+        <md-input-container flex>
+          <label>Email</label>
+          <span>ctrl.model.email</span>
+        </md-input-container>
+      </div>
+      <div layout="row" layout-align="center center">
+        <md-button type="reset" class="md-warn" ng-click="edit.back()">
+          go back
+        </md-button>
+      </div>
+  </md-card-content>
+</md-card>
+
