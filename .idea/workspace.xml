@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf2c9ee3-863d-48be-96d8-59142638fbd7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/app/customers-add/customers-add.component.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/app/customers-add/customers-add.controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/app/customers-add/form.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/app/customers-edit/customers-edit.module.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.js" afterPath="$PROJECT_DIR$/src/app/app.module.js" />
-      <change beforePath="$PROJECT_DIR$/src/app/customers-edit/customers.edit.module.js" afterPath="$PROJECT_DIR$/src/app/customers-add/customers-add.module.js" />
-      <change beforePath="$PROJECT_DIR$/src/app/customers/Customer.js" afterPath="$PROJECT_DIR$/src/app/customers/Customer.js" />
-      <change beforePath="$PROJECT_DIR$/src/app/customers/customers.controller.js" afterPath="$PROJECT_DIR$/src/app/customers/customers.controller.js" />
-      <change beforePath="$PROJECT_DIR$/src/app/customers/customers.module.js" afterPath="$PROJECT_DIR$/src/app/customers/customers.module.js" />
+      <change beforePath="$PROJECT_DIR$/src/app/customers-add/customers-add.component.js" afterPath="$PROJECT_DIR$/src/app/customers-add/customers-add.component.js" />
       <change beforePath="$PROJECT_DIR$/src/app/routing.js" afterPath="$PROJECT_DIR$/src/app/routing.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -68,14 +60,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customers-add.component.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="customers-add.component.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/customers-add/customers-add.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routing.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/routing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="7" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="264">
+              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -195,13 +185,13 @@
         <option value="$PROJECT_DIR$/src/app/customers-view/view.html" />
         <option value="$PROJECT_DIR$/src/app/customers-add/customers-add.module.js" />
         <option value="$PROJECT_DIR$/src/app/customers-add/form.html" />
-        <option value="$PROJECT_DIR$/src/app/customers-add/customers-add.component.js" />
         <option value="$PROJECT_DIR$/src/app/customers/customers.controller.js" />
         <option value="$PROJECT_DIR$/src/app/customers/Customer.js" />
         <option value="$PROJECT_DIR$/src/app/customers-add/customers-add.controller.js" />
         <option value="$PROJECT_DIR$/src/app/customers/customers.module.js" />
         <option value="$PROJECT_DIR$/src/app/app.module.js" />
         <option value="$PROJECT_DIR$/src/app/routing.js" />
+        <option value="$PROJECT_DIR$/src/app/customers-add/customers-add.component.js" />
       </list>
     </option>
   </component>
@@ -443,7 +433,7 @@
       <workItem from="1523226492901" duration="882000" />
       <workItem from="1523229113459" duration="4991000" />
       <workItem from="1523912746204" duration="18301000" />
-      <workItem from="1524516742588" duration="5427000" />
+      <workItem from="1524516742588" duration="5579000" />
     </task>
     <task id="LOCAL-00001" summary="Commit first">
       <created>1522705930733</created>
@@ -459,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524172658209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit first">
+      <created>1524522176141</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524522176141</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59891000" />
+    <option name="totallyTimeSpent" value="60043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
@@ -886,32 +883,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/customers-add/customers-add.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/customers-list/customers.list.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/customers-add/customers-add.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -962,8 +939,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/routing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="7" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="264">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/customers-add/customers-add.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/customers-add/customers-add.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
           <folding />
         </state>
       </provider>

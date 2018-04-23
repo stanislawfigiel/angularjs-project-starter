@@ -1,4 +1,4 @@
-import template from './form.html';
+import template from '../customers-edit/form.html';
 import CustomersAddController from './customers-add.controller';
 
 

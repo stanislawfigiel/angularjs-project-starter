@@ -10,11 +10,11 @@ export const routing = ($urlRouterProvider, $locationProvider, $stateProvider) =
   });
 
 
- /* stateProvider.state({
+  $stateProvider.state({
     name: 'add',
     url: '/customers/add',
     component: 'addCustomer',
-  });*/
+  });
 
   $stateProvider.state({
     name: 'details',
