@@ -15,4 +15,5 @@ export default class Customer{
         this.date = Date.now();
     }
 
+
 }

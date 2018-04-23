@@ -5,8 +5,8 @@ export default class CustomersController {
   }
 
   addCustomer = () => {
-
     console.log("dodajemy");
+    this.$state.go('add');
   };
 
   showList = () => {

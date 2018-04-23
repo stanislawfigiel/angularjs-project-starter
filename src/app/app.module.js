@@ -4,8 +4,6 @@ import 'angular-animate';
 import 'angular-aria';
 import 'angular-material';
 import {AppComponent} from './app.component';
-import CustomersComponent from "./customers/customers.component";
-import CustomersListComponent from './customers-list/customers-list.component';
 import {customersModule} from "./customers/customers.module";
 
 const materialConfig = $mdThemingProvider => {
@@ -22,10 +20,7 @@ export const appModule = angular
 
   ])
   .component('app', new AppComponent())
-  // .component('customers', new CustomersComponent())
-  // .config(routing)
   .config(materialConfig)
-  // .component('customersList', new CustomersListComponent())
 
 
 

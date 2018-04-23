@@ -9,13 +9,13 @@ export const routing = ($urlRouterProvider, $locationProvider, $stateProvider) =
     component: 'customersList'
   });
 
-  /*
-  stateProvider.state({
+
+ /* stateProvider.state({
     name: 'add',
     url: '/customers/add',
     component: 'addCustomer',
-  });
-*/
+  });*/
+
   $stateProvider.state({
     name: 'details',
     url: '/customers/details/:id',
